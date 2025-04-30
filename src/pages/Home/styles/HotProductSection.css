@@ -1,0 +1,127 @@
+.products-block .item {
+    display: inline-block;
+    background: #fff;
+    margin: 10px 12px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.65);
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+}
+.products-block .item img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 12px;
+}
+.products-block {
+    margin-top: 40px;
+    text-align: center;
+}
+.products-block .item h5 {
+    font-size: 18px;
+    min-height: 62px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+.products-block button {
+    margin: 30px 0px;
+}
+.hot-carousel .owl-nav button i {
+    background: rgba(227,41,41,1);
+    background: -moz-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(227,41,41,1)), color-stop(50%, rgba(255,97,29,1)), color-stop(100%, rgba(255,183,14,1)));
+    background: -webkit-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: -o-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: -ms-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: linear-gradient(to right, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e32929', endColorstr='#ffb70e', GradientType=1 );
+    font-size: 28px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    border: none;
+    text-align: center;
+}
+.hot-carousel .owl-nav button i:hover
+{
+    background: #021920;
+}
+.hot-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.hot-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: -50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.hot-carousel {
+    position: relative;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #FFF;
+    text-decoration: none;
+}
+.hot-carouseel .owl-nav button i {
+    background: rgba(227,41,41,1);
+    background: -moz-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(227,41,41,1)), color-stop(50%, rgba(255,97,29,1)), color-stop(100%, rgba(255,183,14,1)));
+    background: -webkit-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: -o-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: -ms-linear-gradient(left, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    background: linear-gradient(to right, rgba(227,41,41,1) 0%, rgba(255,97,29,1) 50%, rgba(255,183,14,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e32929', endColorstr='#ffb70e', GradientType=1 );
+    font-size: 28px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    border: none;
+    text-align: center;
+}
+.hot-carouseel .owl-nav button i:hover
+{
+    background: #021920;
+}
+.hot-carouseel .owl-nav .owl-prev {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.hot-carouseel .owl-nav .owl-next {
+    position: absolute;
+    right: -50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.hot-carouseel {
+    position: relative;
+}
+
+.products-block .item:hover {
+    background: #ffb80e;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -4px #b5b5b5;
+}
+.products-block .item a,
+.products-block .item:hover a {
+    color: #000;
+    text-decoration: none;
+}
+ul.hot-carousel.owl-carousel.owl-theme.owl-loaded.owl-drag img {
+    /* height: 140px; */
+    width: 100%;
+}

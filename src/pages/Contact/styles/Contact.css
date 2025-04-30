@@ -1,0 +1,164 @@
+.locations-section .single-item .inner-box .upper-box .head-block img {
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    width: 70px;
+}
+ul.info-list.clearfix h5 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 600;
+}
+
+.contactinfo-section input[type="text"],
+.contactinfo-section input[type="number"],
+.contactinfo-section input[type="tel"],
+.contactinfo-section input[type="email"],
+.contactinfo-section textarea {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0px;
+    border-bottom: 1px solid #505050;
+    border-radius: 0;
+    background: transparent;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #a7a5a5;
+    font-weight: 600;
+}
+
+.contactinfo-section select {
+    width: 100%;
+    padding: 13px 10px;
+    border: 0px;
+    border-bottom: 1px solid #505050;
+    border-radius: 0;
+    background: transparent;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #747474;
+    font-weight: normal;
+}
+
+.contact-page-section .form-inner {
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 50px 50px;
+    padding-top: 43px;
+    /*box-shadow: 0 0px 30px rgb(0 0 0 / 15%);*/
+    margin-top: 31px;
+}
+#content_block_6 .content-box .info-list li {
+    position: relative;
+    display: block;
+    padding-left: 82px;
+    margin-bottom: 35px;
+}
+#content_block_6 .content-box .info-list li .icon-box {
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+.locations-section {
+    position: relative;
+    padding: 60px 0px;
+}
+.bg-color-2 {
+    background: #fbeed7;
+}
+.locations-section .pattern-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.locations-section .single-item .inner-box {
+    position: relative;
+    display: block;
+    background: #fff;
+    height: 500px;
+    padding: 34px 40px 37px 40px;
+    box-shadow: 0 0px 20px rgb(0 0 0 / 6%);
+}
+ul.info-list.clearfix a {
+    text-decoration: none;
+    color: #000;
+}
+ul.info-list.clearfix a:hover {
+    color: #ffb80e;
+}
+.locations-section .single-item .inner-box {
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 34px 40px 37px 40px;
+    box-shadow: 0 0px 20px rgb(0 0 0 / 6%);
+}
+.locations-section .single-item .inner-box .upper-box {
+    position: relative;
+    margin-bottom: 18px;
+}
+.locations-section .single-item .inner-box .info-list li:hover i {
+    background: #ffb80e;
+    color: #000;
+}
+.locations-section .single-item .inner-box .info-list li i {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ffeec7;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+
+.locations-section .single-item .inner-box .info-list li i {
+    color: #fa4949;
+}
+.locations-section .single-item .inner-box .info-list li {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 1920px 0;
+    }
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 1920px 0;
+    }
+}
+
+.contact-info-desc {
+    font-size: 18px !important;
+    font-weight: 100 !important;
+    padding-left: 25px !important;
+    font-family: "Mark Pro" !important;
+    text-transform: unset !important;
+}

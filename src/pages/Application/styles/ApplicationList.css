@@ -1,0 +1,58 @@
+section.applications-page a {
+    color: #000;
+}
+section.applications-page:hover a {
+    text-decoration: none;
+}
+.app-img-color {
+    transition: transform 0.7s !important;
+    -moz-transition: transform 0.7s !important; /* Firefox 4 */
+    -webkit-transition: transform 0.7s !important; /* Safari and Chrome */
+    -o-transition: transform 0.7s !important; /* Opera */
+    -ms-transition: transform 0.7s !important; /* Explorer 10 */
+}
+.app-img-color:hover {
+    cursor: pointer;
+    transform: translate(0rem, -1em) !important;
+}
+.app-page-content button {
+    margin-top: 20px;
+}
+.app-page-content h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+section.application-page-block {
+    padding: 30px 0px;
+}
+section.applications-page h4,
+section.applications-page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.app-img-color img {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+section.applications-page h4:hover,
+section.applications-page h2:hover {
+    color: red;
+    text-decoration: none !important;
+}
+section.applications-page h4:hover,
+section.applications-page h2:hover {
+    color: red;
+    text-decoration: none !important;
+    list-style: none;
+}
+.col-md-3 .app-img-color:hover {
+    color: red;
+    text-decoration: none !important;
+    list-style: none;
+}

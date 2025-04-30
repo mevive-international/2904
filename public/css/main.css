@@ -1,0 +1,224 @@
+.hero-banner {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.hero-banner.home {
+    height: 100vh;
+}
+.cd-slider-wrapper {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;    overflow-y: hidden;
+}
+.cs-select ul, ol, ul {
+    list-style: none;
+}
+.cd-slider>li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+}
+.cd-slider>li.visible {
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+}
+.cd-slider .cd-svg-wrapper {
+    height: 0;
+    padding-bottom: 57.15%;
+}
+.cd-slider-wrapper svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.clip-img {
+    height: 100%;
+}
+.other_layer {
+    position: relative;
+    transition: all 1s ease-in-out;
+    transition-delay: .1s;
+    opacity: 0;
+    z-index: 1;
+}
+.other_layer img {
+    width: 100%;
+}
+.other_layer img, .product-section .product-img, .scroll-down {
+    position: absolute;
+}
+.bnr1-el2 {
+    width: 105%!important;
+    top: -20px!important;
+    left: -30px!important;
+}
+.bnr1-el1 {
+    width: 64%!important;
+    top: auto!important;
+    left: auto!important;
+    right: 0!important;
+    bottom: -3px!important;
+}
+.cd-slider .visible .other_layer {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    transition-delay: .1s;
+}
+
+.bnr2-el1 {
+    top: -90px!important;
+}
+.bnr2-el2 {
+    top: -60px!important;
+}
+.bnr2-el2, .bnr2-el3, .bnr2-el4 {
+    left: 0!important;
+}
+.bnr2-el3 {
+    top: -52px!important;
+}
+.bnr2-el4 {
+    top: 0!important;
+}
+.bnr2-el6 {
+    top: -50px!important;
+}
+.bnr2-el7 {
+    left: 30px!important;
+    bottom: -20px;
+}
+.bnr2-el5 {
+    top: -95px!important;
+    left: 60px!important;
+}
+
+.bnr3-el, .bnr3-humans {
+    top: 0!important;
+}
+.bnr3-el {
+    width: 105%!important;
+    left: -20px!important;
+}
+.bnr4-extra {
+    width: 110%!important;
+    top: -77px!important;
+    left: -100px!important;
+}
+.bnr4-turmeric {
+    top: -40px!important;
+    left: 48px!important;
+}
+.bnr4-chilli {
+    top: -45px!important;
+    left: 95px!important;
+}
+
+
+.cd-slider-navigation li {
+    position: absolute;
+    z-index: 3;
+    bottom: 195px;
+    right: 125px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
+}
+.cd-slider-navigation li a:hover
+{
+    background: #ff611d;
+}
+.cd-slider-navigation li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    transition: transform .2s;
+    background: #c0bbb7;
+    border-radius: 25px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+    position: relative;
+    color: #fff;
+}
+.prev-slide
+{
+    left:-25px;
+}
+.cd-slider-navigation li:last-child a {
+    right: -18px;
+    position: relative;
+}
+.cd-slider-controls {
+    right: 68px;
+}
+.cd-slider-controls li {
+    display: inline-block;
+    position: relative;
+    padding: 0px 4px;
+}
+.cd-slider-controls li.selected a {
+    color: #ff611d;
+    background: #ff611d;
+}
+.cd-slider-controls li::before {
+    display: block;
+    position: absolute;
+    width: 1px;
+    left: 50%;
+    top: -36px;
+    bottom: 30px;
+    background: #1e1e1e;
+    transform: scale3d(1,0,1);
+    transform-origin: top;
+    transition: all .4s ease-in-out;
+}
+.cd-slider-controls {
+    position: absolute;
+    bottom: 175px;
+    right: 203px;
+    text-align: center;
+    transform: translateY(-50%);
+    z-index: 1000!important;
+}
+.cd-slider-controls a {
+    position: relative;
+    display: block;
+    color: #c6bcdb;
+    height: 12px;
+    width: 12px;
+    line-height: 27px;
+    font-size: 0px;
+    text-align: center;
+    background: #c6bcdb;
+    border-radius: 50%;
+}
+.cd-slider-controls a span {
+    opacity: .5;
+}
+.cd-slider-controls a:after {
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    top: 26px;
+    left: 11px;
+    background: rgba(255,255,255,.6);
+    z-index: -1;
+}
+.cd-slider-controls li.selected::before {
+    transform: scaleY(1);
+    transform-origin: top;
+}
+.cd-slider-controls li.selected a span {
+    opacity: 1;
+}

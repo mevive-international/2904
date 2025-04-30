@@ -1,0 +1,5 @@
+Change `index.html` filename into `index.php` after build.
+
+Replace `title` tag with following php code.
+
+<?php include('admin/meta/index.php'); ?>

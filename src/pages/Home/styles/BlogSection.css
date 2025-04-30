@@ -1,0 +1,61 @@
+.blog-block {
+    transition: transform 0.7s !important;
+    -moz-transition: transform 0.7s !important; /* Firefox 4 */
+    -webkit-transition: transform 0.7s !important; /* Safari and Chrome */
+    -o-transition: transform 0.7s !important; /* Opera */
+    -ms-transition: transform 0.7s !important; /* Explorer 10 */
+}
+
+.blog-block:hover {
+    cursor: pointer;
+    transform: translate(0rem, -1em) !important;
+}
+
+.blog-section a:hover {
+    text-decoration: none;
+}
+
+.blog-block {
+    background: #f7f7fa;
+    border-radius: 12px;
+    box-shadow: 0px 1px 10px -4px #b5b5b5;
+}
+.blog-img img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.home-blog .blog-cont:hover h3 a {
+    color: red !important;
+    /*font-weight: 900;*/
+    cursor: pointer;
+}
+.home-blog .blog-cont {
+    padding: 10px 20px 30px;
+    margin-top: -22px;
+    background: #f7f7fa;
+    position: relative;
+    color: #000 !important;
+    height: 80%;
+}
+.home-blog .blog-cont a {
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-radius: 5px;
+}
+.home-blog .blog-cont a.btn {
+    color: #fff !important;
+}
+.home-blog .blog-cont p {
+    margin: 23px 0px;
+}
+.home-blog .blog-cont h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin: 10px 0px;
+    border-left: 5px solid #fd6a4f;
+    padding-left: 18px;
+}

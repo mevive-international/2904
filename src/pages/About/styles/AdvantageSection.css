@@ -1,0 +1,48 @@
+.card-title {
+    margin-bottom: 0;
+    font-size: 19px !important;
+    background-color: #ffffff;
+    font-weight: normal;
+}
+.card-title div {
+    color: #000;
+    display: block;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.card-title > div:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content: "\f068";
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+.card-title > div.collapsed:before {
+    float: right !important;
+    content: "\f067";
+}
+.card-title > div:hover,
+.card-title > div:active,
+.card-title > div:focus {
+    text-decoration: none;
+}
+.card-header {
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 0px;
+}
+.card {
+    margin-bottom: 20px !important;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 15px 16px 13px 8px rgb(4 4 4 / 5%);
+}
+.card.card-default a:hover {
+    color: #ffb80e;
+}
+.card-body {
+    padding: 10px 20px;
+    font-size: 16px;
+}

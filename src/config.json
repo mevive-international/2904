@@ -1,0 +1,7 @@
+{
+    "SITE_BASE_URL": "https://www.meviveinternational.com",
+    "STORAGE_BASE_URL": "https://www.meviveinternational.com/data/",
+    "APP_BASE_URL": "https://www.meviveinternational.com/data/",
+    "API_BASE_URL": "https://www.meviveinternational.com/admin/api/",
+    "GOOGLE_RECAPTCHA_KEY": "6LdOh2wnAAAAAJlBa3DtXsLbJ-OlYb7ZwlPgFtiB"
+}
